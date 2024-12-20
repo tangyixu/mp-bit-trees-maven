@@ -1,0 +1,7 @@
+Changes
+
+1) Filled in BitTree.java
+
+2) Created BitTreeNode.java
+
+3) Added README.md

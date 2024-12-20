@@ -5,9 +5,9 @@ import java.io.InputStream;
 import java.io.IOException;
 
 /**
+ * Useful methods that help with translating Braille to Ascii.
  *
- *
- * @author Your Name Here
+ * @author Tiffany Tang
  * @author Samuel A. Rebelsky
  */
 public class BrailleAsciiTables {
@@ -18,8 +18,7 @@ public class BrailleAsciiTables {
   /**
    * Conversions from ASCII to braille.
    */
-  static final String a2b = 
-      "01000001,100000\n"
+  static final String a2b = "01000001,100000\n"
       + "01000010,110000\n"
       + "01000011,100100\n"
       + "01000100,100110\n"
@@ -76,8 +75,7 @@ public class BrailleAsciiTables {
   /**
    * Conversions from braille to ASCII.
    */
-  static final String b2a =
-      "100000,A\n"
+  static final String b2a = "100000,A\n"
       + "110000,B\n"
       + "100100,C\n"
       + "100110,D\n"
@@ -108,8 +106,7 @@ public class BrailleAsciiTables {
   /**
    * Conversions from braille to unicode.
    */
-  static final String b2u =
-      "000000,2800\n"
+  static final String b2u = "000000,2800\n"
       + "100000,2801\n"
       + "010000,2802\n"
       + "110000,2803\n"
@@ -205,7 +202,7 @@ public class BrailleAsciiTables {
    *
    */
   public static String toBraille(char letter) {
-    return "";  // STUB
+    return ""; // STUB
   } // toBraille(char)
 
   /**
@@ -223,13 +220,13 @@ public class BrailleAsciiTables {
         // We don't care if we can't close the stream.
       } // try/catch
     } // if
-    return "";  // STUB
+    return ""; // STUB
   } // toAscii(String)
 
   /**
    *
    */
   public static String toUnicode(String bits) {
-    return "";  // STUB
+    return ""; // STUB
   } // toUnicode(String)
 } // BrailleAsciiTables

@@ -3,7 +3,9 @@ package edu.grinnell.csc207.main;
 import java.io.PrintWriter;
 
 /**
- *
+ * A class that process transformation between ASCII and braille.
+ * 
+ * @author Tiffany Tang
  */
 public class BrailleASCII {
   // +------+--------------------------------------------------------
